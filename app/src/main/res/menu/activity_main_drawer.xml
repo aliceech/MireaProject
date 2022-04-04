@@ -24,5 +24,9 @@
             android:id="@+id/nav_calculate"
             android:icon="@android:drawable/stat_notify_more"
             android:title="calculate" />
+        <item
+            android:id="@+id/nav_musicPlayer"
+            android:icon="@android:drawable/ic_media_play"
+            android:title="music_player" />
     </group>
 </menu>
