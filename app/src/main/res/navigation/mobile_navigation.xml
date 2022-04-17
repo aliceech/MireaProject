@@ -38,4 +38,20 @@
         android:name="ru.mirea.chemodanova.mireaproject.MusicPlayer"
         android:label="fragment_music_player"
         tools:layout="@layout/fragment_music_player" />
+    <fragment
+        android:id="@+id/nav_datchic"
+        android:name="ru.mirea.chemodanova.mireaproject.FragmentDatchic"
+        android:label="datchic"
+        tools:layout="@layout/fragment_datchic"/>
+    <fragment
+        android:id="@+id/nav_photo"
+        android:name="ru.mirea.chemodanova.mireaproject.FragmentPhoto"
+        android:label="photo"
+        tools:layout="@layout/fragment_photo"/>
+    <fragment
+        android:id="@+id/nav_audio"
+        android:name="ru.mirea.chemodanova.mireaproject.FragmentAudio"
+        android:label="audio"
+        tools:layout="@layout/fragment_audio"/>
+
 </navigation>

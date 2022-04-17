@@ -28,5 +28,17 @@
             android:id="@+id/nav_musicPlayer"
             android:icon="@android:drawable/ic_media_play"
             android:title="music_player" />
+        <item
+            android:id="@+id/nav_datchic"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="datchic" />
+        <item
+            android:id="@+id/nav_photo"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="photo" />
+        <item
+            android:id="@+id/nav_audio"
+            android:icon="@android:drawable/ic_btn_speak_now"
+            android:title="audio" />
     </group>
 </menu>
