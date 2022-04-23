@@ -22,7 +22,7 @@
         android:theme="@style/Theme.MireaProject">
         <meta-data
             android:name="com.google.android.actions"
-            android:resource="@xml/paths" />
+            android:resource="@xml/root_preferences" />
 
         <service
             android:name=".PlayerService"

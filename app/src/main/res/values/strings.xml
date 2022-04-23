@@ -12,4 +12,13 @@
     <string name="menu_slideshow">Slideshow</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="messages_header" />
+    <string name="signature_title" />
+    <string name="reply_title" />
+    <string name="sync_header" />
+    <string name="sync_title" />
+    <string name="attachment_summary_off" />
+    <string name="attachment_summary_on" />
+    <string name="attachment_title" />
+    <string name="stories" />
 </resources>

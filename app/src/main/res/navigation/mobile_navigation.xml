@@ -53,5 +53,41 @@
         android:name="ru.mirea.chemodanova.mireaproject.FragmentAudio"
         android:label="audio"
         tools:layout="@layout/fragment_audio"/>
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="ru.mirea.chemodanova.mireaproject.HomeSettingsFragment"
+        android:label="settings"
+        tools:layout="@layout/fragment_home_settings">
+        <action
+            android:id="@+id/action_nav_settings_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="ru.mirea.chemodanova.mireaproject.SettingsFragment"
+        android:label="settings" >
+        <action
+            android:id="@+id/action_settingsFragment_to_nav_settings"
+            app:destination="@id/nav_settings" />
+    </fragment>
+    <fragment
+        android:id="@+id/storiesFragment"
+        android:name="ru.mirea.chemodanova.mireaproject.StoriesFragment"
+        android:label="Stories"
+        tools:layout="@layout/fragment_stories" >
+        <action
+            android:id="@+id/action_storiesFragment_to_nav_stories"
+            app:destination="@id/nav_stories" />
+    </fragment>
 
+
+    <fragment
+        android:id="@+id/nav_stories"
+        android:name="ru.mirea.chemodanova.mireaproject.HomeStoriesFragment"
+        android:label="Stories"
+        tools:layout="@layout/fragment_home_stories" >
+        <action
+            android:id="@+id/action_nav_stories_to_storiesFragment"
+            app:destination="@id/storiesFragment" />
+    </fragment>
 </navigation>
